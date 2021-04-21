@@ -4,7 +4,7 @@ The core idea behind the implementation is simple - Ensure that the battery heal
 
 ## Motivation
 
-We all are well aware of the importance of Charge-Discharge cycle for any rechargeable battery. I have implemented a shell script to address the issue of premature damage to battery health due to lack of these cycles. The script runs every 15 minutes (cron job) and notifies me whenever the charging is above 85% to turn OFF charging or when the battery level falls below 25%, then to turn ON charging.
+We all are well aware of the importance of Charge-Discharge cycle for any rechargeable battery. I have implemented a shell script to address the issue of premature damage to battery health due to lack of these cycles. **The script runs every 15 minutes (cron job) and notifies me whenever the charging is above 85% to turn OFF charging or when the battery level falls below 25%, then to turn ON charging.**
 
 Although, the idea is really simple, I certainly believe that it is something that most of the working professionals (who usually get too busy in discussions/development/meetings to see the charging level of laptops) should implement and use.
 
