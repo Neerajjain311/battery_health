@@ -1,17 +1,14 @@
 # Synopsis
-Shell script to enforce proper charge-discharge battery cycles (MacOS)
-
-## Synopsis
-
-At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
-
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+Battry_Health.sh is a basic shell script to enforce proper charge-discharge battery cycles (MacOS).
+The core idea behind the implementation is simple - Ensure that the battery health of the device is maintained properly, i.e., avoid overcharging or undercharging.
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+We all are well aware of the importance of Charge-Discharge cycle for any rechargeable battery. I have implemented a shell script to address the issue of premature damage to battery health due to lack of these cycles. The script runs every 15 minutes (cron job) and notifies me whenever the charging is above 85% to turn OFF charging or when the battery level falls below 25%, then to turn ON charging.
+
+Although, the idea is really simple, I certainly believe that it is something that most of the working professionals (who usually get too busy in discussions/development/meetings to see the charging level of laptops) should implement and use.
+
+If anyone wants to implement it and is not sure how to go along with it, please feel free to reach out to me. I'll be more than happy to help!
 
 ## Installation
 
