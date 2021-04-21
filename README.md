@@ -10,22 +10,11 @@ Although, the idea is really simple, I certainly believe that it is something th
 
 If anyone wants to implement it and is not sure how to go along with it, please feel free to reach out to me. I'll be more than happy to help!
 
-## Installation
+## Installation and Implementation
 
-Provide code examples and explanations of how to get the project.
+If you're a MacOS user and want to use the same script, just clone the repo, extract the shell script, and then go ahead and place it in the list of CronJobs configuring the time interval after which you want to run it (15 min / 30 min / 1 hour / or whatever suits you best).
+That's it, you're good to go!
 
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
-## License
-
-A short snippet describing the license (MIT, Apache, etc.)
+## Demo Video
+A video demonstrating the working of the same can be found at the following link-
+https://www.linkedin.com/feed/update/urn:li:activity:6746676043995787264/
